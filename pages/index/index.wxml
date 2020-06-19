@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+	<view>
+		<text>-全部文章-</text>
+	</view>
+	<view class="posts">
+		<navigator url="/pages/details/index?pid={{item.pid}}" class="post" wx:for="{{posts}}" wx:for-item="item" wx:key="index">
+			<image class="bg" src="{{item.background}}"></image>
+			<view class="title">{{item.title}}</view>
+		</navigator>
+	</view>
+	<view class="foot">我是有底线的</view>
+</view>

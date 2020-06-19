@@ -1,0 +1,13 @@
+<!--pages/details/index.wxml 文章详情-->
+<view class="container">
+	<view class="post">
+		<view class="post-title">{{post.title}}</view>
+		<view class="post-info">
+			<view class="info-date">发布时间:{{post.date}}</view>
+			<view class="info-views">阅读次数:{{post.views}}</view>
+		</view>
+		<image class="post-bg" src="{{post.background}}"></image>
+		<view class="post-content">{{post.content}}</view>
+		<view class="post-moreInfo"></view>
+	</view>
+</view>

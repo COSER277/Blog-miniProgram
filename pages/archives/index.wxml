@@ -1,0 +1,11 @@
+<!--pages/archives/index.wxml 归档-->
+<view class="container">
+	<view>-全部归档-</view>
+	<view class="categories">
+		<navigator url="/pages/posts/index?cid={{item.cid}}" class="category" wx:for="{{categories}}" wx:for-item="item" wx:key="index">
+			<image class="bg" src="{{item.background}}"></image>
+			<view class="title">{{item.title}}</view>
+		</navigator>
+	</view>
+  <view class="foot">我是有底线的</view>
+</view>

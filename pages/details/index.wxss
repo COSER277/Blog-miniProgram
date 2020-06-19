@@ -1,0 +1,37 @@
+/* pages/details/index.wxss */
+.post{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+/* =====文章头部信息开始========= */
+.post-title{
+  font-size: 1.2rem;
+  text-align: center;
+}
+.post-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #ccc;
+  font-size: 0.8rem;
+  margin: 0.1rem 0;
+}
+.post-info .info-date{
+  margin-left: 1rem;
+}
+.post-info .info-views{
+  margin-left: 1rem;
+}
+/* ========文章头部信息结束======== */
+.post-bg{
+  width: 100%;
+  margin: 0.1rem 0;
+}
+.post-content{
+ font-family: Arial, Helvetica, sans-serif;
+}
+.post-moreInfo{
+
+}

@@ -4,7 +4,7 @@
 2. 作品预览
   1. 首页
 
-![图片](https://uploader.shimo.im/f/xGoXKmyRAnaICnpr.png!thumbnail)
+![图片](https://6465-dev-x8az2-1302738494.tcb.qcloud.la/Blog-miniProgram.jpg?sign=ed5413180b9db75528fed4dff377f566&t=1596114362)
 
   2. 归档
 
